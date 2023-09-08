@@ -185,3 +185,109 @@ footer {
   padding: 25px 0;
   margin-top: 20px;
 }
+
+/* Service Page Styles */
+#main {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+}
+
+.service {
+    border: 1px solid #e5e5e5;
+    padding: 20px;
+    margin-bottom: 20px;
+    background-color: #ffffff;
+}
+
+.service h2 {
+    font-size: 24px;
+    margin-bottom: 10px;
+    color: #333333;
+}
+
+.service p {
+    font-size: 16px;
+    line-height: 1.5;
+    color: #666666;
+}
+
+/* Add this CSS to your style.css file */
+
+/* Service Page Styles */
+#main {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+}
+
+.service {
+    border: 1px solid #e5e5e5;
+    padding: 20px;
+    margin-bottom: 20px;
+    background-color: #ffffff;
+}
+
+.service h2 {
+    font-size: 24px;
+    margin-bottom: 10px;
+    color: #333333;
+}
+
+.service p {
+    font-size: 16px;
+    line-height: 1.5;
+    color: #666666;
+}
+
+/* Contact Form Styles */
+#sidebar {
+    width: 30%; /* Adjust the width as needed */
+    padding: 20px;
+    background-color: #ffffff;
+    border: 1px solid #e5e5e5;
+}
+
+#contact-form {
+    width: 100%;
+}
+
+#contact-form h2 {
+    font-size: 24px;
+    margin-bottom: 20px;
+    color: #333333;
+}
+
+.form-group {
+    margin-bottom: 20px;
+}
+
+label {
+    font-size: 18px;
+    color: #333333;
+}
+
+input[type="text"],
+input[type="email"],
+textarea {
+    width: 100%;
+    padding: 10px;
+    font-size: 16px;
+    border: 1px solid #e5e5e5;
+    border-radius: 5px;
+    margin-top: 5px;
+}
+
+button[type="submit"] {
+    background-color: #e8491d;
+    color: white;
+    font-size: 18px;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+button[type="submit"]:hover {
+    background-color: #cc4216;
+}
