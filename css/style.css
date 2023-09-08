@@ -90,7 +90,8 @@ header a:hover {
 /* Showcase styles */
 #showcase {
   min-height: 400px;
-  background: url("../img/web.jpg") no-repeat;
+  background: linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.8)),
+  url("../img/web.jpg") no-repeat;
   /* Removed opacity for better readability */
   background-color: rgba(53, 66, 74, 0.7); /* Added background color overlay */
   text-align: center;
